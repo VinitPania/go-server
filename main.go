@@ -33,7 +33,7 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	fmt.Fprintf(w, "Hello form Gogo")
+	fmt.Fprintf(w, "Hello form Go-server")
 }
 
 func main() {
